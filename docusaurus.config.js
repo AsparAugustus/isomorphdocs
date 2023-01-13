@@ -94,8 +94,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/Overview/WhatIsIsomorph',
+                label: 'Isomorph',
+                to: '/',
               },
             ],
           },
