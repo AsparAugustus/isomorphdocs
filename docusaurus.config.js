@@ -33,19 +33,27 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+
+          routeBasePath: '/', // Serve the docs at the site's root
+        /* other docs plugin options */
+          
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+        blog: false
+
+        // {
+        //   showReadingTime: true,
+        //   // Please change this to your repo.
+        //   // Remove this to remove the "edit this page" links.
+        //   editUrl:
+        //     'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        // }
+        
+        ,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -55,26 +63,28 @@ const config = {
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+
     ({
+      defaultMode: 'dark',
       navbar: {
-        title: 'My Site',
+        title: 'Isomorph Protocol',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.png',
+          alt: 'Isomorph',
+          src: 'img/Isomorph-logo.png',
         },
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'Overview/WhatIsIsomorph',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Documentation',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
+          // {to: '/blog', label: 'Blog', position: 'left'},
+          // {
+          //   href: 'https://github.com/kree-dotcom/isomorph/',
+          //   label: 'GitHub',
+          //   position: 'right',
+          // },
         ],
       },
       footer: {
@@ -85,7 +95,7 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/intro',
+                to: '/docs/Overview/WhatIsIsomorph',
               },
             ],
           },
