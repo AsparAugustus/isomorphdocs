@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Isomorph Documentation',
   tagline: 'Isomorph',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://isomorphdocs-nsu3dk4nl-zyanation.vercel.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
