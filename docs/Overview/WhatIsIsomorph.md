@@ -27,5 +27,3 @@ Loans are liquidatable and because some collateral assets can be frozen and unab
 More details on the functions of each contract can be found in their respective sections. 
 
 
-
-<!-- ![Drag Racing](../../static/img/Actor-Interactions.jpg) -->

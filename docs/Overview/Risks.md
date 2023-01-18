@@ -1,3 +1,10 @@
+---
+sidebar_label: 'Risks'
+sidebar_position: 3
+---
+
+
+
 Using any smart contract is not risk free. When using Isomorph you are assuming
 several risks:
 
