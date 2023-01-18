@@ -126,7 +126,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Isomorph Loans, Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Isomorph Protocol, Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
